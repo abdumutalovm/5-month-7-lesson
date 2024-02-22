@@ -5,11 +5,6 @@ const password = document.getElementById("password");
 const button = document.getElementById("button");
 const form = document.getElementById("form");
 
-checkbox &&
-  checkbox.addEventListener("change", () => {
-    document.body.classList.toggle("dark");
-  });
-
 button &&
   button.addEventListener("click", function (e) {
     e.preventDefault();
